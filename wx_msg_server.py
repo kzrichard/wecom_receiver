@@ -509,7 +509,7 @@ def create_app():
     # wechatserver = WeChatMsg(logger)
     # app = wechatserver.server_run()
 
-    serve(app,host="96.74.99.243", port=5000)
+    serve(app,host="54.92.196.77", port=5000)
 
     return app
 
