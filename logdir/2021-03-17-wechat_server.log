@@ -1,0 +1,108 @@
+2021-03-17 10:37:16,407 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 10:37:16,408 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 10:37:16,797 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 10:37:16,810 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 10:37:22,373 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 10:37:22,374 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 10:37:22,803 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 10:37:22,808 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 10:43:25,502 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 10:44:36,540 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 10:44:50,203 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 10:44:56,667 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-17 10:45:04,970 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 12:17:15,579 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 12:17:58,206 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 12:18:41,737 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 12:23:10,128 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 12:23:14,521 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-17 14:42:46,384 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 14:42:46,386 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 14:42:46,982 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 14:42:46,992 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 14:44:40,807 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 14:45:58,333 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-17 14:45:59,651 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 14:45:59,653 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 14:46:00,025 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 14:46:00,034 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 14:46:01,082 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 14:46:01,237 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-17 14:46:22,111 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 14:57:10,962 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 14:57:10,968 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 14:57:11,355 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 14:57:11,365 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 14:57:48,019 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 14:57:48,072 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 14:57:48,852 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 14:57:48,859 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 14:57:54,977 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 14:57:55,029 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 14:57:55,412 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 14:57:55,417 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:25:11,178 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 15:25:11,179 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:25:11,553 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:25:11,564 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:25:40,082 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:25:40,137 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:25:40,580 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:25:40,585 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:25:42,621 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:25:42,680 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:25:43,203 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:25:43,269 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:25:44,440 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:25:44,488 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:25:44,975 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:25:44,982 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:26:01,138 - werkzeug - INFO - 59.36.121.188 - - [17/Mar/2021 15:26:01] "[37mPOST /index?msg_signature=20aea7f7ead742cd705c51b3f9b547b698a16977&timestamp=1616019959&nonce=1616625026 HTTP/1.1[0m" 200 -
+2021-03-17 15:26:06,149 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 15:26:30,821 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:26:30,893 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:26:31,515 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:26:31,521 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:26:45,793 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:26:45,858 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:26:46,260 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:26:46,266 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:26:54,213 - werkzeug - INFO - 59.36.121.188 - - [17/Mar/2021 15:26:54] "[37mPOST /index?msg_signature=c166d1da7894958f7ac6afb82726747969c319c6&timestamp=1616020012&nonce=1616843140 HTTP/1.1[0m" 200 -
+2021-03-17 15:26:59,220 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 15:27:02,427 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 15:27:02,428 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:27:02,831 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:27:02,836 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:49:07,840 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:49:07,932 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:49:08,993 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:49:09,002 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:51:56,270 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-17 15:51:56,353 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:52:13,310 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:56:17,290 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-17 15:56:17,292 - werkzeug - INFO -  * Restarting with stat
+2021-03-17 15:56:17,678 - werkzeug - WARNING -  * Debugger is active!
+2021-03-17 15:56:17,684 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-03-17 15:57:05,225 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 15:58:05,063 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 15:59:04,499 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 15:59:35,685 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 16:00:50,909 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 16:13:45,175 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-17 16:13:53,685 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-17 16:39:04,805 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 16:46:27,581 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 16:46:27,581 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 16:46:59,678 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 16:46:59,678 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-17 16:46:59,678 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:35:57,152 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:35:57,152 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:35:57,152 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:36:09,062 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:36:09,062 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:36:09,062 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:36:16,325 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:36:16,325 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-18 08:36:16,325 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}

@@ -1,0 +1,370 @@
+2021-01-12 10:06:06,228 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:06:06,237 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:06:08,273 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:06:08,897 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:06:08,902 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:06:32,341 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:06:32,913 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:06:32,920 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:13:37,573 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:15:16,583 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 10:15:16,584 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:15:16,966 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:15:16,975 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:15:59,914 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:15:59,991 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:16:00,786 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:16:00,793 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:16:11,973 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:16:12,045 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:16:12,654 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:16:12,660 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:21:00,468 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:21:00,561 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:29:00,967 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 10:29:00,968 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:29:01,321 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:29:01,330 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:29:32,944 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:29:33,013 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:29:34,029 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:29:34,047 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:30:10,935 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:30:10] "[35m[1mGET /trello?msg_signature=ec1bdee1aa439a4ecea137fec50eee251f660e23&timestamp=1610476209&nonce=1610306825&echostr=a1pfr2EW46Yq2elJEanRbX%2F6xFwxkIuAtXwlM9sFSXXtgB8iP4j%2Fujq2Wjz%2B3Sq%2FR2Lbmvd61gCYHkVtZ1Wfxg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:30:12,071 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:30:12] "[35m[1mGET /trello?msg_signature=ec1bdee1aa439a4ecea137fec50eee251f660e23&timestamp=1610476209&nonce=1610306825&echostr=a1pfr2EW46Yq2elJEanRbX%2F6xFwxkIuAtXwlM9sFSXXtgB8iP4j%2Fujq2Wjz%2B3Sq%2FR2Lbmvd61gCYHkVtZ1Wfxg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:30:13,260 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:30:13] "[35m[1mGET /trello?msg_signature=ec1bdee1aa439a4ecea137fec50eee251f660e23&timestamp=1610476209&nonce=1610306825&echostr=a1pfr2EW46Yq2elJEanRbX%2F6xFwxkIuAtXwlM9sFSXXtgB8iP4j%2Fujq2Wjz%2B3Sq%2FR2Lbmvd61gCYHkVtZ1Wfxg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:12,948 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:31:13,038 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:31:13,547 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:31:13,552 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:31:33,925 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:31:33,980 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:31:34,734 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:31:34,740 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:31:40,691 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:31:40] "[35m[1mGET /trello?msg_signature=4f3a3c3bdb043e00c820094b53dcc3e2c642f1b2&timestamp=1610476299&nonce=1610168851&echostr=OAY1SlnQj3s7rxgD8biGmPenVZi5lPhB%2BFchKXtW%2BExMrwRchxTiuufgf67eC86JOD6kxyoj7K2jQ2zy8%2F3ELg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:40,811 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:31:40] "[35m[1mGET /trello?msg_signature=4dfe4be50f4acf9110b26ed902394888d73f7031&timestamp=1610476299&nonce=1610329319&echostr=uO5bD3RVHDx70%2F89AzQfWLRXi%2FmoYklNqrgA86rTc3WoqB11Kfa7CRDl1gz9cnP%2B0e%2B3mTHN36RF%2FLFAAORfeg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:41,930 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:31:41] "[35m[1mGET /trello?msg_signature=4f3a3c3bdb043e00c820094b53dcc3e2c642f1b2&timestamp=1610476299&nonce=1610168851&echostr=OAY1SlnQj3s7rxgD8biGmPenVZi5lPhB%2BFchKXtW%2BExMrwRchxTiuufgf67eC86JOD6kxyoj7K2jQ2zy8%2F3ELg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:42,058 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:31:42] "[35m[1mGET /trello?msg_signature=4dfe4be50f4acf9110b26ed902394888d73f7031&timestamp=1610476299&nonce=1610329319&echostr=uO5bD3RVHDx70%2F89AzQfWLRXi%2FmoYklNqrgA86rTc3WoqB11Kfa7CRDl1gz9cnP%2B0e%2B3mTHN36RF%2FLFAAORfeg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:43,148 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:31:43] "[35m[1mGET /trello?msg_signature=4f3a3c3bdb043e00c820094b53dcc3e2c642f1b2&timestamp=1610476299&nonce=1610168851&echostr=OAY1SlnQj3s7rxgD8biGmPenVZi5lPhB%2BFchKXtW%2BExMrwRchxTiuufgf67eC86JOD6kxyoj7K2jQ2zy8%2F3ELg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:43,215 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:31:43] "[35m[1mGET /trello?msg_signature=4dfe4be50f4acf9110b26ed902394888d73f7031&timestamp=1610476299&nonce=1610329319&echostr=uO5bD3RVHDx70%2F89AzQfWLRXi%2FmoYklNqrgA86rTc3WoqB11Kfa7CRDl1gz9cnP%2B0e%2B3mTHN36RF%2FLFAAORfeg%3D%3D HTTP/1.1[0m" 500 -
+2021-01-12 10:31:56,237 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:31:56,298 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:31:57,054 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:31:57,089 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:32:43,052 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:32:43,130 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:33:15,447 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 10:33:15,448 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:33:15,872 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:33:15,880 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:35:09,177 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:35:09,237 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:35:09,758 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:35:09,764 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:35:19,946 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:35:19,983 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:35:20,565 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:35:20,571 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:37:03,565 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 10:37:03,567 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:37:03,927 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:37:03,932 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:37:08,380 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:37:08] "[37mGET /trello?msg_signature=057682b0a572a4f1c066651b37d4711226d5f5f5&timestamp=1610476627&nonce=1610410151&echostr=ZVbKRZyCv0UWklA6wGSlXX9UtSgD%2BXEUQwaQpJGnUufmViB%2Fr2R8yYt0FzF0DieFsw%2FxHrpf4YiOGMxtPYPNtg%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:37:09,627 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:37:09] "[37mGET /trello?msg_signature=057682b0a572a4f1c066651b37d4711226d5f5f5&timestamp=1610476627&nonce=1610410151&echostr=ZVbKRZyCv0UWklA6wGSlXX9UtSgD%2BXEUQwaQpJGnUufmViB%2Fr2R8yYt0FzF0DieFsw%2FxHrpf4YiOGMxtPYPNtg%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:37:10,803 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:37:10] "[37mGET /trello?msg_signature=057682b0a572a4f1c066651b37d4711226d5f5f5&timestamp=1610476627&nonce=1610410151&echostr=ZVbKRZyCv0UWklA6wGSlXX9UtSgD%2BXEUQwaQpJGnUufmViB%2Fr2R8yYt0FzF0DieFsw%2FxHrpf4YiOGMxtPYPNtg%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:37:44,733 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:37:44,801 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:38:09,538 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 10:38:09,539 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:38:09,893 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:38:09,897 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:38:13,170 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:38:13] "[37mGET /trello?msg_signature=d05231839f3c14e6949172af0cebb8184c65782c&timestamp=1610476691&nonce=1609689307&echostr=aZ5hPnN5uzW4zef4mDbehTTSFkX2m3kb2VcZrmWG%2Fv3KfmNrbMJDT0JjBNpgOtnDBI1entIIH5Vdz3hc2A6Zqw%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:38:14,351 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:38:14] "[37mGET /trello?msg_signature=d05231839f3c14e6949172af0cebb8184c65782c&timestamp=1610476691&nonce=1609689307&echostr=aZ5hPnN5uzW4zef4mDbehTTSFkX2m3kb2VcZrmWG%2Fv3KfmNrbMJDT0JjBNpgOtnDBI1entIIH5Vdz3hc2A6Zqw%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:38:15,505 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:38:15] "[37mGET /trello?msg_signature=d05231839f3c14e6949172af0cebb8184c65782c&timestamp=1610476691&nonce=1609689307&echostr=aZ5hPnN5uzW4zef4mDbehTTSFkX2m3kb2VcZrmWG%2Fv3KfmNrbMJDT0JjBNpgOtnDBI1entIIH5Vdz3hc2A6Zqw%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:39:56,644 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:39:56] "[33mGET /trello1?msg_signature=acb98fe55c9518e559b4f30ce359b6b77fe0b537&timestamp=1610476796&nonce=719tvcnfx0i&echostr=JRbXpmQfPBq6PmQizjQ%2Flk5sEEdu1GUYnvtAZZ5iwGKUllVIoOSpRR%2BxS3GNwu9HfqKFZUnDzj41KVboN6VjSHkPD5yEikuq08Y%2Fhf1ef9SX%2BhiJCWClSHp0RzFSBczSeAP2lVPdI8YOxNwmE0XIvk%2BhULnVO9dEi1ZDUTmkDb0%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:41:31,156 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:41:31] "[33mGET /?msg_signature=6d9321bd929404e022a718917b38fa3e61ed24ac&timestamp=1610476890&nonce=ic32m3rusdb&echostr=rOIH4DPTs59Z4J9bDt6pzsg3YBI70dd5wiKWvmBOxfcBbRBlXI8JYaFVmNNHJKwHMSYdpuO%2Brug4qDm1TmpN%2FyqIej1PnSvIqGOnhIApoqr5TLoshNHUXjwv23XT5uTycNQWTs7AN2LOU%2FbjbqOSavJJmkaxNKjdrmakSH9ca5A%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:41:32,833 - werkzeug - INFO - 81.69.19.58 - - [12/Jan/2021 10:41:32] "[33mGET /?msg_signature=f44ca78fb99ede08af7cc404b935598487868ad6&timestamp=1610476892&nonce=03onp8xs7r81&echostr=gdsTk0B17z6%2BMqfBxgWJ29DFShWjO2FYr7ny0VXx8vrIWLpkOz60OY5YZYJPcELexCn0u9K6F7LSt62fHvNPBl4yy5iQ1HizLs3d8a1nBJrwuMCpqvJlayMqf9GI7sQ%2F5UA3DM3GWlcDF5eORkO3%2FnyFCD7EvAKC0ZeSaAGGyTg%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:41:37,099 - werkzeug - ERROR - 42.192.0.152 - - [12/Jan/2021 10:41:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01')
+2021-01-12 10:41:37,100 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:41:37] "[35m[1m	 $:1Nfz!£KAê×Q/£pû(9ij  À0À,À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2021-01-12 10:41:41,457 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:41:41] "[33mGET /?msg_signature=65c0a59bc2325e340fbd35fb8c6232c5ffffda07&timestamp=1610476901&nonce=kycxkw8hy8k&echostr=CBssaXvmTDmVz0un%2FPFS3Y7YwbKiOg3nBXBAlm4c5r2u8lyPsZZu2uBMzb3xTEn6eGm36yXRMavfzwGMcMRnLVqWy%2BZVL5J2XTHjg4q2j%2Fv09mUITZc8SBEx8J5lYFLgWkCH1JGtxXJjausRGwcuImkVnz6XMcCy81QA%2BM8pcx4%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:42:48,235 - werkzeug - INFO - 81.69.19.58 - - [12/Jan/2021 10:42:48] "[33mGET /?msg_signature=9834ce0828f630412c3255ccb7a6bdd51d0f157e&timestamp=1610476967&nonce=jdudb1gduw&echostr=CCFHwIggM5DbThVj1aW0%2FgYsUCMoNzKRMq29UUI0ONIR1etUqDVjJ%2F51E%2BEKvruzX9Mgcgww05zBD7%2FL6Zy1yUezEAep7u0ykzIDmbl1I2ViXdeb0mdMj0vz7ZpZidNS5nelRPqYDRYQTSYbZY4TypFbv61nNFxXeRtMcOmb2mE%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:42:51,801 - werkzeug - ERROR - 42.192.0.152 - - [12/Jan/2021 10:42:51] code 400, message Bad request version ('þI')
+2021-01-12 10:42:51,801 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:42:51] "[35m[1m	 ð¨°RáÄ/P|R>ÎþI[0m" HTTPStatus.BAD_REQUEST -
+2021-01-12 10:42:55,224 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:42:55] "[33mGET /?msg_signature=26a5ca1e6de5258d1c77d73c02a8aa27e73c90f7&timestamp=1610476974&nonce=8zs7drr7tns&echostr=481w1bpOCc9N3naeLnyUQc%2F9qy1b31OpJAIpWFTaEr5Zkh99uxNdKOywhfJdcslbWmi3OaHH7Csr3dJrG8ErZwhR5t%2BaC%2FlC%2Bj6TYw36HWptt%2BBzcIPG3s%2BwyQN7gTAVU3yRZ9GrlWXfOAnkvLYvBE8BLKqW0uqgzc0poKWejTk%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:42:57,893 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:42:57] "[33mGET /?msg_signature=730e591d140de29be4bbda6c6a179f9df06d6994&timestamp=1610476977&nonce=kjtxwovt4uc&echostr=AbMyKykKrnSjKgg2V1ABcBUPMKqUdrPvNNG2HhEkGyZN%2Bxu0HRPaUruabFS1ag8O0XQQlxdaC5eI3LWfpj10wqci0HCtnruLAeCiGuSyQo2tIO6IJdvv6B5YLRAgaKwBdlGZC0BUcmTDqvp2gMKEQDwYZ1ztEK%2Ff6L3wq2EKspQ%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:43:08,745 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:43:08] "[33mGET /?msg_signature=cbe4da70598c90015cafe7bf968ee937bde60a11&timestamp=1610476988&nonce=x613j476n2&echostr=9KBFs%2BhZtD1rhbDkgKM2LamY7Vhg8wQTpc9Jam36xgQPL%2B%2FdjgmNxYCtXmN7gc16ATw%2BUK4VSqkxcYOmQBL5hRoQ1BTpg4DVXxqyeiV9A83QsDurUrUyoAR31i5K7RLl6rlIktWY5rc5uTUhBHSctOAcYaXMyB1Sv7otN%2FAjz5Y%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:43:28,113 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:43:28] "[35m[1mPOST /index?msg_signature=602ab9f13ed938501b59f95f148d6714164aeb81&timestamp=1610477006&nonce=1610071825 HTTP/1.1[0m" 500 -
+2021-01-12 10:43:29,789 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:43:29] "[35m[1mPOST /index?msg_signature=602ab9f13ed938501b59f95f148d6714164aeb81&timestamp=1610477006&nonce=1610071825 HTTP/1.1[0m" 500 -
+2021-01-12 10:43:31,426 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:43:31] "[35m[1mPOST /index?msg_signature=602ab9f13ed938501b59f95f148d6714164aeb81&timestamp=1610477006&nonce=1610071825 HTTP/1.1[0m" 500 -
+2021-01-12 10:44:12,499 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:44:12,570 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:44:13,362 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:44:13,368 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:44:18,469 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:44:18,511 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:44:18,930 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:44:18,935 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:44:19,955 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:44:19,991 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:44:20,400 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:44:20,406 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:44:24,307 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 10:44:24] "[33mGET /?msg_signature=4369e4c8b047247e17789325ea79c54b21e8c6e0&timestamp=1610477064&nonce=ji27i5vt2vb&echostr=dijWASlo94ViHEK0IMdYgOGq1guV99MsLcSMi1yIJvOR1yn9XLSi2iUC6Ku80Ipc4UjjSpL1wUZ64GrgnhAhNLNhyWLPD%2FUSztQ%2Bi6Ld3nWdmDsMDjUAgcPdipCcdmDgJx1zl5hhjEIazsqMuXxuVPMQTvIAVpe8Jzq0P%2F%2FZWw4%3D HTTP/1.1[0m" 404 -
+2021-01-12 10:46:08,270 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:46:08] "[35m[1mPOST /index?msg_signature=1f2905161984f094373d8b95b5fd73a5d4046216&timestamp=1610477166&nonce=1609574974 HTTP/1.1[0m" 500 -
+2021-01-12 10:46:09,925 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:46:09] "[35m[1mPOST /index?msg_signature=1f2905161984f094373d8b95b5fd73a5d4046216&timestamp=1610477166&nonce=1609574974 HTTP/1.1[0m" 500 -
+2021-01-12 10:46:11,747 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:46:11] "[35m[1mPOST /index?msg_signature=1f2905161984f094373d8b95b5fd73a5d4046216&timestamp=1610477166&nonce=1609574974 HTTP/1.1[0m" 500 -
+2021-01-12 10:46:50,128 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:46:50] "[35m[1mPOST /index?msg_signature=72fbf920312f217fe5e82138cbe5335a4e7b29dc&timestamp=1610477208&nonce=1610013236 HTTP/1.1[0m" 500 -
+2021-01-12 10:46:51,787 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:46:51] "[35m[1mPOST /index?msg_signature=72fbf920312f217fe5e82138cbe5335a4e7b29dc&timestamp=1610477208&nonce=1610013236 HTTP/1.1[0m" 500 -
+2021-01-12 10:46:53,427 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:46:53] "[35m[1mPOST /index?msg_signature=72fbf920312f217fe5e82138cbe5335a4e7b29dc&timestamp=1610477208&nonce=1610013236 HTTP/1.1[0m" 500 -
+2021-01-12 10:48:47,589 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:48:47,654 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:49:28,415 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 10:49:28,417 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:49:28,813 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:49:28,820 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:49:32,558 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:49:32] "[37mPOST /index?msg_signature=f3dbe34ec4f3d3cb74a592cfc8f3939d1c12d0e9&timestamp=1610477371&nonce=1610511904 HTTP/1.1[0m" 200 -
+2021-01-12 10:49:37,715 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 10:49:41,053 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:49:41,106 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:49:41,722 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:49:41,727 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:49:46,962 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:49:46] "[37mPOST /index?msg_signature=1a0ac457e85dde7d379596302dcb8374a227d0b5&timestamp=1610477385&nonce=1609918164 HTTP/1.1[0m" 200 -
+2021-01-12 10:49:52,019 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 10:49:55,172 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:49:55,238 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:49:55,733 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:49:55,739 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:50:17,161 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:50:17,224 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:50:17,737 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:50:17,743 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:50:20,817 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:50:20] "[37mGET /trello?msg_signature=fdbc76e4b0a4a013c57d7ea1c8462035f2e6794b&timestamp=1610477419&nonce=1610252064&echostr=WE8FtWScocepfX6s91f4Ik2ark3%2BJSiFZaqh5XCVK2X5mzEhmPQXfL39q%2F%2B8QXVH0FxMJw7py8nTRmxTSV5S3Q%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:50:22,473 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:50:22] "[37mGET /trello?msg_signature=fdbc76e4b0a4a013c57d7ea1c8462035f2e6794b&timestamp=1610477419&nonce=1610252064&echostr=WE8FtWScocepfX6s91f4Ik2ark3%2BJSiFZaqh5XCVK2X5mzEhmPQXfL39q%2F%2B8QXVH0FxMJw7py8nTRmxTSV5S3Q%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:50:23,667 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:50:23] "[37mGET /trello?msg_signature=fdbc76e4b0a4a013c57d7ea1c8462035f2e6794b&timestamp=1610477419&nonce=1610252064&echostr=WE8FtWScocepfX6s91f4Ik2ark3%2BJSiFZaqh5XCVK2X5mzEhmPQXfL39q%2F%2B8QXVH0FxMJw7py8nTRmxTSV5S3Q%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:51:10,720 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:51:10,785 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:51:11,437 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:51:11,478 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:51:14,048 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:51:14] "[37mGET /trello?msg_signature=abdb43b5186852d3c02a62c364681f4f284a4f94&timestamp=1610477472&nonce=1610018803&echostr=XyKgb%2FixQhIEfXU%2Fg%2BTjzHsjQJrTTE7eMZnjq8eID8b7fRRQrWWZwzWSRqo%2FWnh9v7K8tHXi6C8K1EsUSjs2Mw%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:51:15,268 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:51:15] "[37mGET /trello?msg_signature=abdb43b5186852d3c02a62c364681f4f284a4f94&timestamp=1610477472&nonce=1610018803&echostr=XyKgb%2FixQhIEfXU%2Fg%2BTjzHsjQJrTTE7eMZnjq8eID8b7fRRQrWWZwzWSRqo%2FWnh9v7K8tHXi6C8K1EsUSjs2Mw%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:51:16,466 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:51:16] "[37mGET /trello?msg_signature=abdb43b5186852d3c02a62c364681f4f284a4f94&timestamp=1610477472&nonce=1610018803&echostr=XyKgb%2FixQhIEfXU%2Fg%2BTjzHsjQJrTTE7eMZnjq8eID8b7fRRQrWWZwzWSRqo%2FWnh9v7K8tHXi6C8K1EsUSjs2Mw%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:52:12,006 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:52:12] "[37mGET /trello?msg_signature=3320d57f6f74a66ffea42d5f228f47e64c85190d&timestamp=1610477530&nonce=1609826606&echostr=KlptpeASrzcL7Lb5HGCwxkJm6cmB7h0ELDFEXCXRawmCxBQtMzoG484RPXaezmznBIPVDi0K0x7HgAeZkcq4mg%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:52:13,187 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:52:13] "[37mGET /trello?msg_signature=3320d57f6f74a66ffea42d5f228f47e64c85190d&timestamp=1610477530&nonce=1609826606&echostr=KlptpeASrzcL7Lb5HGCwxkJm6cmB7h0ELDFEXCXRawmCxBQtMzoG484RPXaezmznBIPVDi0K0x7HgAeZkcq4mg%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:52:14,013 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:52:14] "[37mGET /trello?msg_signature=e464880af5aa2cc4b69b690270fc264254a5d916&timestamp=1610477532&nonce=1610077818&echostr=5iFSSLbYJBgYaJSW15YxtGA7YqhQaaVJeDUOCzuOMUF3CjI1qE3EdJyAY8qiGM2o2OaPrXV%2Fd4RblotgAJ2igA%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:52:14,330 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:52:14] "[37mGET /trello?msg_signature=3320d57f6f74a66ffea42d5f228f47e64c85190d&timestamp=1610477530&nonce=1609826606&echostr=KlptpeASrzcL7Lb5HGCwxkJm6cmB7h0ELDFEXCXRawmCxBQtMzoG484RPXaezmznBIPVDi0K0x7HgAeZkcq4mg%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:52:15,247 - werkzeug - INFO - 157.255.192.110 - - [12/Jan/2021 10:52:15] "[37mGET /trello?msg_signature=e464880af5aa2cc4b69b690270fc264254a5d916&timestamp=1610477532&nonce=1610077818&echostr=5iFSSLbYJBgYaJSW15YxtGA7YqhQaaVJeDUOCzuOMUF3CjI1qE3EdJyAY8qiGM2o2OaPrXV%2Fd4RblotgAJ2igA%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:52:16,446 - werkzeug - INFO - 121.51.162.118 - - [12/Jan/2021 10:52:16] "[37mGET /trello?msg_signature=e464880af5aa2cc4b69b690270fc264254a5d916&timestamp=1610477532&nonce=1610077818&echostr=5iFSSLbYJBgYaJSW15YxtGA7YqhQaaVJeDUOCzuOMUF3CjI1qE3EdJyAY8qiGM2o2OaPrXV%2Fd4RblotgAJ2igA%3D%3D HTTP/1.1[0m" 200 -
+2021-01-12 10:53:25,824 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:53:25] "[37mPOST /index?msg_signature=04b3c4a39d359d6c5301395c4796635d50831130&timestamp=1610477604&nonce=1609945103 HTTP/1.1[0m" 200 -
+2021-01-12 10:53:30,919 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 10:56:46,058 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 10:56:46,117 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 10:56:46,662 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 10:56:46,668 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 10:57:10,619 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 10:57:10] "[37mPOST /index?msg_signature=072c860bb9f9e5cdaa8786b1663fc35fdbb4ce11&timestamp=1610477829&nonce=1610203472 HTTP/1.1[0m" 200 -
+2021-01-12 10:57:13,986 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:01:38,458 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 11:01:38,460 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:01:38,820 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:01:38,826 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:02:24,774 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:02:24,884 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:02:25,667 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:02:25,677 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:02:30,779 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:02:30,821 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:03:08,299 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 11:03:08,300 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:03:08,870 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:03:08,883 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:03:11,889 - werkzeug - INFO - 81.69.19.58 - - [12/Jan/2021 11:03:11] "[35m[1mGET /index?msg_signature=de1dab12774c71264f6ee8e204df2745d494269c&timestamp=1610478190&nonce=lgfl638l1cn&echostr=ph0DbWFyGw8Q%2B3pmlafXXlWbv3LDKIrFyWHksRGIMqTDpCYJ2TEL%2FAZofEaTeIu7tg32LCLDlrNJezAscc4%2BpaUSKPT2rPImsNg4Xq7eLJygpF3V9bswV7x96NSRuuHFQI5wqXPS%2BGYB6CgoTk1QIGnCx8ggUXkakOp4FT4T6dM%3D HTTP/1.1[0m" 500 -
+2021-01-12 11:03:18,129 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:03:18,186 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:03:18,858 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:03:18,885 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:03:21,632 - werkzeug - INFO - 42.192.0.152 - - [12/Jan/2021 11:03:21] "[35m[1mGET /index?msg_signature=e3af95519c3b4b2d7393f38a8d5604b3d7a1c854&timestamp=1610478200&nonce=j3i14x3yf9c&echostr=EAQRLOFpUJYbjbu2kiOTAJieGMS9PQjJ8KmLHQ54mugsSOcmwxi7WZpCYBSeKSNsmuzESYgiwdofKNWcdYGm1g3UnrP3mgviQNUonKensqQ1tAsAz2V02%2B0qJv6GI2pEjpe6lob7yHTdkS8MmAWX4onIrFOT%2ByvhvjGGoH4s9Y0%3D HTTP/1.1[0m" 500 -
+2021-01-12 11:03:33,188 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:03:33,262 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:03:34,073 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:03:34,087 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:04:10,730 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 11:04:10,731 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:04:11,123 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:04:11,129 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:04:35,628 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:04:35,672 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:04:36,160 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:04:36,166 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:04:40,242 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:04:40,287 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:07:51,857 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 11:07:51,858 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:07:52,272 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:07:52,279 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:07:55,345 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:07:55,391 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:07:55,856 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:07:55,862 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:08:00,958 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:08:01,000 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:08:01,362 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:08:01,367 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:11:43,744 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:11:43,848 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:11:44,428 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:11:44,440 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:12:13,009 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:12:13,070 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:12:14,142 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:12:14,151 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:12:25,359 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:12:25,405 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:12:25,845 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:12:25,851 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:13:06,593 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:13:06,631 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:13:07,059 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:13:07,064 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:13:14,123 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:13:14] "[37mPOST /trello?msg_signature=dda9709729c5005064c2160f6fecf2dacf29336c&timestamp=1610478792&nonce=1609685897 HTTP/1.1[0m" 200 -
+2021-01-12 11:13:16,404 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:13:16] "[37mPOST /trello?msg_signature=f7a70978a7b5b0169f09355a114324d053f05113&timestamp=1610478795&nonce=1610602072 HTTP/1.1[0m" 200 -
+2021-01-12 11:13:16,994 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1610478796_149_5b65433449d356f7d44caff287a5b876], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-01-12 11:13:19,026 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1610478798_149_4b61b80441c9dac03c6cde89b4af8f1c], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-01-12 11:13:36,579 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:13:36,630 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:13:37,162 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:13:37,167 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:13:50,264 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:13:50] "[37mPOST /trello?msg_signature=2fed6bee5fd6451d1d3ac6a427a1b479c5d424ad&timestamp=1610478828&nonce=1609748232 HTTP/1.1[0m" 200 -
+2021-01-12 11:13:52,996 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1610478832_150_4cab424ab03eb3557bda65e8452346d8], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-01-12 11:16:09,195 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:16:09,264 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:16:09,822 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:16:09,830 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:16:32,263 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:16:32,317 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:16:33,098 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:16:33,106 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:16:35,159 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:16:35,220 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:16:35,941 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:16:35,947 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:16:44,801 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:16:44] "[37mPOST /trello?msg_signature=427d2f4a70e63d95980015baab8219d83ea9b254&timestamp=1610479003&nonce=1610264731 HTTP/1.1[0m" 200 -
+2021-01-12 11:16:47,720 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1610479007_150_cd5e20878b60f68145e1985d64f93342], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-01-12 11:17:38,251 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:17:38,297 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:17:39,061 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:17:39,076 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:17:42,747 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:17:42] "[37mPOST /trello?msg_signature=fb7116fdfb9addffaa83cbcb2e0a8224f039c7e2&timestamp=1610479061&nonce=1610312477 HTTP/1.1[0m" 200 -
+2021-01-12 11:17:45,464 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1610479065_150_abeb2ae989c2ede28899a84821adefc5], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-01-12 11:18:11,827 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:18:11,864 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:18:12,625 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:18:12,630 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:18:18,032 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:18:18] "[37mPOST /trello?msg_signature=a52e9d7837c5ba95b4a5596c48f056fbf3f446aa&timestamp=1610479096&nonce=1610067050 HTTP/1.1[0m" 200 -
+2021-01-12 11:18:21,271 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:27:21,251 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:27:21] "[37mPOST /trello?msg_signature=88507ce49668b525610be445aae6b1622933aa19&timestamp=1610479639&nonce=1609636261 HTTP/1.1[0m" 200 -
+2021-01-12 11:27:24,033 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:29:18,401 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:29:18,479 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:29:19,600 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:29:19,606 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:30:00,348 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:30:00,401 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:30:01,068 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:30:01,076 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:30:06,176 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:30:06,243 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:30:06,819 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:30:06,828 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:30:14,341 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:30:14] "[37mPOST /index?msg_signature=4b95ec9205e0062d8e710b33f3cb72c70d483781&timestamp=1610479812&nonce=1609751317 HTTP/1.1[0m" 200 -
+2021-01-12 11:30:19,502 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:30:23,320 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:30:23] "[37mPOST /index?msg_signature=4962c6fdfd2d7f18613378650d37e6841198c45e&timestamp=1610479821&nonce=1609749628 HTTP/1.1[0m" 200 -
+2021-01-12 11:30:27,412 - root - INFO - list index out of range
+2021-01-12 11:30:59,471 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:30:59] "[37mPOST /index?msg_signature=5e1f1520c2e961d8bde93c65ed2e21ce9e616a58&timestamp=1610479858&nonce=1610609718 HTTP/1.1[0m" 200 -
+2021-01-12 11:31:03,698 - root - INFO - list index out of range
+2021-01-12 11:32:39,963 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:32:40,058 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:32:40,938 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:32:40,953 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:32:44,184 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:32:44,226 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:32:44,751 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:32:44,756 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:32:53,958 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:32:53,994 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:32:54,782 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:32:54,790 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:32:59,365 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:32:59] "[37mPOST /index?msg_signature=20a8b239763a7b5422fc132b3caefd97349f78c4&timestamp=1610479978&nonce=1610425470 HTTP/1.1[0m" 200 -
+2021-01-12 11:33:04,676 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:33:15,168 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:33:15,237 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:33:16,049 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:33:16,056 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:33:32,362 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:33:32,408 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:33:32,766 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:33:32,770 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:33:34,801 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:33:34,842 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:33:35,225 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:33:35,230 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:33:39,654 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:33:39] "[37mPOST /index?msg_signature=b44165d94798be6eb778ee1088280565240215e7&timestamp=1610480018&nonce=1610487388 HTTP/1.1[0m" 200 -
+2021-01-12 11:33:44,839 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:33:55,811 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:33:55] "[37mPOST /index?msg_signature=2abe9f05ab7b7744fc7bacf218b7ec1348b206de&timestamp=1610480034&nonce=1610251400 HTTP/1.1[0m" 200 -
+2021-01-12 11:34:01,012 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:37:10,285 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:37:10] "[37mPOST /index?msg_signature=affdc7fbbc3b1b9ee44be4dc67b34b75f6132913&timestamp=1610480228&nonce=1609778204 HTTP/1.1[0m" 200 -
+2021-01-12 11:37:15,350 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:37:49,044 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-12 11:37:49,157 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 11:37:49,740 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 11:37:49,745 - werkzeug - INFO -  * Debugger PIN: 153-882-637
+2021-01-12 11:37:55,655 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:37:55] "[37mPOST /index?msg_signature=6f30e80eb7455fdedff04b4452707300e5fd9054&timestamp=1610480274&nonce=1610124679 HTTP/1.1[0m" 200 -
+2021-01-12 11:38:00,707 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:38:04,652 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:38:04] "[37mPOST /index?msg_signature=c70359f9039006ab5044c1852d7f3120fcdaf985&timestamp=1610480283&nonce=1610182202 HTTP/1.1[0m" 200 -
+2021-01-12 11:38:09,741 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:38:18,238 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:38:18] "[37mPOST /index?msg_signature=cd1ec8d4604056d5e973be00bf347afa41578912&timestamp=1610480296&nonce=1609607789 HTTP/1.1[0m" 200 -
+2021-01-12 11:38:23,334 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 11:38:26,847 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 11:38:26] "[37mPOST /index?msg_signature=9c1163a6108d322768834ca5a9ccae0762bc54c6&timestamp=1610480305&nonce=1610257295 HTTP/1.1[0m" 200 -
+2021-01-12 11:38:31,932 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 12:03:21,672 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-01-12 12:03:21,674 - werkzeug - INFO -  * Restarting with stat
+2021-01-12 12:03:22,355 - werkzeug - WARNING -  * Debugger is active!
+2021-01-12 12:03:22,542 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-01-12 12:04:38,915 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 12:04:38] "[37mPOST /index?msg_signature=ade54e86acd32cb3d883f0a6931e3b35130d70c3&timestamp=1610481876&nonce=1609825367 HTTP/1.1[0m" 200 -
+2021-01-12 12:04:44,135 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 12:07:57,321 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 12:07:57] "[37mPOST /trello?msg_signature=9c6f749e3501e5cd2eefd181814eb0f95a0f90bb&timestamp=1610482075&nonce=1609585375 HTTP/1.1[0m" 200 -
+2021-01-12 12:08:00,198 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 12:08:03,166 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 12:08:03] "[37mPOST /trello?msg_signature=662a7f58524d5ca8df2556d04ea00b49df75f69e&timestamp=1610482081&nonce=1609706577 HTTP/1.1[0m" 200 -
+2021-01-12 12:08:05,917 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 12:08:13,570 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 12:08:13] "[37mPOST /trello?msg_signature=78b29aa0210d65ece4c2272f367ce9dea3d322f1&timestamp=1610482092&nonce=1610420697 HTTP/1.1[0m" 200 -
+2021-01-12 12:08:16,417 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 12:08:19,341 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 12:08:19] "[37mPOST /trello?msg_signature=32feb45d873d04f4390723dae3664823deb57d8c&timestamp=1610482098&nonce=1610497177 HTTP/1.1[0m" 200 -
+2021-01-12 12:08:22,242 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 15:16:22,368 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 15:16:22] "[37mPOST /index?msg_signature=5aaea78d5aa58ac4ea391c7c23e0ffec723b1b06&timestamp=1610493380&nonce=1609898775 HTTP/1.1[0m" 200 -
+2021-01-12 15:16:27,444 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 19:00:46,721 - werkzeug - ERROR - 5.8.18.88 - - [12/Jan/2021 19:00:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2021-01-12 19:00:46,727 - werkzeug - INFO - 5.8.18.88 - - [12/Jan/2021 19:00:46] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2021-01-12 21:39:09,149 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 21:39:09] "[37mPOST /index?msg_signature=396d686e394808ea2ca0606d74635c71097dd5a9&timestamp=1610516347&nonce=1610112208 HTTP/1.1[0m" 200 -
+2021-01-12 21:39:14,250 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 21:39:25,900 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 21:39:25] "[37mPOST /index?msg_signature=71689070b6de01d10cc2014a8731ecf1469482f6&timestamp=1610516364&nonce=1610168498 HTTP/1.1[0m" 200 -
+2021-01-12 21:39:30,967 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 21:39:40,127 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 21:39:40] "[37mPOST /index?msg_signature=f83537c22d1201d9619886dc2afecb652aeaf5f9&timestamp=1610516378&nonce=1609906968 HTTP/1.1[0m" 200 -
+2021-01-12 21:39:45,168 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 21:40:00,758 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 21:40:00] "[37mPOST /trello?msg_signature=8aedcafc2c34d47de5295e69bab9b8ccb51d4279&timestamp=1610516399&nonce=1610327924 HTTP/1.1[0m" 200 -
+2021-01-12 21:40:03,902 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-12 21:40:09,493 - werkzeug - INFO - 59.36.121.188 - - [12/Jan/2021 21:40:09] "[37mPOST /trello?msg_signature=640b3dec9ca59b2a6be697ea58873ca1b3d53430&timestamp=1610516408&nonce=1610384760 HTTP/1.1[0m" 200 -
+2021-01-12 21:40:12,149 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-13 00:42:49,385 - werkzeug - ERROR - 5.8.18.88 - - [13/Jan/2021 00:42:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2021-01-13 00:42:49,389 - werkzeug - INFO - 5.8.18.88 - - [13/Jan/2021 00:42:49] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2021-01-13 01:47:38,263 - werkzeug - ERROR - 83.97.20.21 - - [13/Jan/2021 01:47:38] code 400, message Bad request version ('0.12\x00')
+2021-01-13 01:47:38,266 - werkzeug - INFO - 83.97.20.21 - - [13/Jan/2021 01:47:38] "[35m[1m   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 [0m" HTTPStatus.BAD_REQUEST -
+2021-01-13 01:47:38,480 - werkzeug - INFO - 83.97.20.21 - - [13/Jan/2021 01:47:38] "[33mGET / HTTP/1.1[0m" 404 -
+2021-01-13 06:09:00,617 - werkzeug - ERROR - 5.8.18.88 - - [13/Jan/2021 06:09:00] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2021-01-13 06:09:00,621 - werkzeug - INFO - 5.8.18.88 - - [13/Jan/2021 06:09:00] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2021-01-13 07:14:23,084 - werkzeug - INFO - 162.142.125.128 - - [13/Jan/2021 07:14:23] "[33mGET / HTTP/1.1[0m" 404 -
+2021-01-13 08:46:41,930 - werkzeug - INFO - 59.36.121.188 - - [13/Jan/2021 08:46:41] "[37mPOST /index?msg_signature=18b30429abab39bbcb714eda0c68d14c514b3e8b&timestamp=1610556399&nonce=1610229289 HTTP/1.1[0m" 200 -
+2021-01-13 08:46:47,006 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-01-13 11:32:05,771 - werkzeug - ERROR - 5.8.18.88 - - [13/Jan/2021 11:32:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2021-01-13 11:32:05,777 - werkzeug - INFO - 5.8.18.88 - - [13/Jan/2021 11:32:05] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2021-01-13 13:10:34,386 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-01-13 13:10:34,840 - werkzeug - INFO -  * Restarting with stat
+2021-01-13 13:10:38,212 - werkzeug - INFO -  * Restarting with stat
+2021-01-13 13:10:55,072 - werkzeug - INFO -  * Restarting with stat
+2021-01-13 13:11:04,102 - werkzeug - INFO -  * Restarting with stat
+2021-01-13 13:11:17,162 - werkzeug - INFO -  * Restarting with stat

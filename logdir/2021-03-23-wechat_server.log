@@ -1,0 +1,174 @@
+2021-03-23 09:28:53,903 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 09:28:53,903 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 09:29:00,511 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 09:29:00,511 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 13:51:40,727 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 13:51:40,727 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 13:51:40,727 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-23 15:23:00,267 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:00,267 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:00,267 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:00,658 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:00,658 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:00,658 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:01,024 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:01,024 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:01,024 - wx_msg_server - ERROR - Exception on /index [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 316, in index
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py", line 73, in __init__
+  File "/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logger.py", line 30, in create_dir
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /logdir'
+2021-03-23 15:23:19,390 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-23 15:23:19,390 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-23 15:23:19,390 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-23 15:23:58,136 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-24 09:24:40,680 - waitress - INFO - Serving on http://0.0.0.0:8080

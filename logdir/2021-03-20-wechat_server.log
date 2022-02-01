@@ -1,0 +1,113 @@
+2021-03-19 17:46:58,920 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 09:51:23,030 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:12:03,128 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:26:14,100 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:26:35,687 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:26:35,687 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:26:58,187 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:26:58,187 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:26:58,187 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:46,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:46,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:46,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:46,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:58,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:58,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:58,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:58,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:31:58,104 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:32:11,253 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:32:11,253 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:32:11,253 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:32:11,253 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:32:11,253 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:32:11,253 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:33:04,940 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:34:56,485 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:37,416 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:35:43,702 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:06,714 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:36:14,607 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:36:29,482 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:29,482 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:47,094 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:36:47,094 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:36:47,094 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:36:53,027 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:53,027 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:53,027 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:53,027 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:36:58,171 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:36:58,171 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:36:58,171 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:36:58,171 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:37:05,116 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:37:59,123 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:37:59,123 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:38:01,947 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:38:01,947 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:38:07,750 - root - INFO - 'str' object has no attribute 'read'
+2021-03-20 10:38:17,707 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:38:23,743 - root - INFO - 'code'
+2021-03-20 10:38:38,957 - root - INFO - 'code'
+2021-03-20 10:38:38,957 - root - INFO - 'code'
+2021-03-20 10:38:39,753 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:38:39,753 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:38:45,627 - root - INFO - the JSON object must be str, bytes or bytearray, not dict
+2021-03-20 10:42:33,328 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:42:43,526 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:43:00,571 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:43:00,571 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:44:23,681 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:44:23,681 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:44:23,681 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:46:22,076 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:46:22,076 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:46:22,076 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:46:55,941 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:47:03,825 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:47:34,836 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:47:55,102 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:48:00,587 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:48:00,587 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:48:09,137 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1616262489_187_7b215d84e5347a9e1e76b131ff78d62d], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-20 10:48:09,137 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1616262489_187_7b215d84e5347a9e1e76b131ff78d62d], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-20 10:48:09,137 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1616262489_187_7b215d84e5347a9e1e76b131ff78d62d], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-20 10:48:32,012 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:48:32,012 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:48:32,012 - waitress - INFO - Serving on http://0.0.0.0:8080
+2021-03-20 10:48:40,027 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:48:47,056 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:48:47,056 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:49:22,833 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:49:22,833 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 10:49:22,833 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:16,798 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:16,798 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:16,798 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:16,798 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:38,266 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:38,266 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:38,266 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:38,266 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-20 13:02:38,266 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}

@@ -1,0 +1,90 @@
+2021-03-08 11:43:56,389 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:43:56,405 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:43:59,490 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:44:00,095 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:44:00,101 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:44:04,187 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:44:04,921 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:44:04,930 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:46:37,218 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:46:37,940 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:46:37,961 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:47:28,941 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:47:29,607 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:47:29,613 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:49:56,348 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:49:57,086 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:49:57,094 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:50:18,535 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:50:19,080 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:50:19,086 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:54:03,729 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:54:04,412 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:54:04,421 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 11:54:20,708 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 11:54:21,209 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 11:54:21,214 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:03:30,058 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-08 12:07:25,483 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-03-08 12:07:25,485 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:07:25,854 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:07:25,863 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:07:36,606 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:07:36] "[37mPOST /index?msg_signature=08755d43ad9424783c1f505370c8aa844b489127&timestamp=1615234055&nonce=1615247098 HTTP/1.1[0m" 200 -
+2021-03-08 12:07:42,308 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1615234062_187_57ac9b9e00126a9dd7ddfd7da2f1a0d9], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-08 12:08:02,859 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:08:02,912 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:08:03,710 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:08:03,719 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:08:09,680 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:08:09] "[37mPOST /netsuite?msg_signature=b5291754729bdf655b59ccc6556f120b59904991&timestamp=1615234088&nonce=1615022789 HTTP/1.1[0m" 200 -
+2021-03-08 12:08:14,026 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-08 12:08:19,604 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:08:19] "[37mPOST /it?msg_signature=51fff22de7bb08a95bb91370d44af1ce1ce55cdf&timestamp=1615234098&nonce=1614984830 HTTP/1.1[0m" 200 -
+2021-03-08 12:08:22,575 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-08 12:08:32,892 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:08:32] "[37mPOST /trello?msg_signature=d094040661befccadd92a4efa407ea67d3d13649&timestamp=1615234111&nonce=1615746978 HTTP/1.1[0m" 200 -
+2021-03-08 12:08:35,729 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-08 12:08:54,426 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:08:54] "[37mPOST /index?msg_signature=a9ad44535e3a7ecd5ff3fb539ca43d6acc51ef4d&timestamp=1615234133&nonce=1615272394 HTTP/1.1[0m" 200 -
+2021-03-08 12:09:00,044 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1615234139_187_4b08c945f6ccc5dde290453b6ce7233d], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-08 12:09:28,573 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:09:28,626 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:09:29,253 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:09:29,262 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:09:47,646 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:09:47,697 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:09:49,655 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:09:49,667 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:09:53,103 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:09:53] "[37mPOST /index?msg_signature=60a79fef75321ed6a413ba87c64b48de6cbfbf77&timestamp=1615234191&nonce=1614980412 HTTP/1.1[0m" 200 -
+2021-03-08 12:09:57,997 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1615234197_157_5b1fa91572c3dad3ad4c883d9162434d], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-08 12:10:54,333 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:10:54,487 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:10:55,534 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:10:55,540 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:10:58,840 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:10:58] "[37mPOST /index?msg_signature=1a300cbfae51faf831f747cdfdc21e8b232ddca5&timestamp=1615234257&nonce=1615787036 HTTP/1.1[0m" 200 -
+2021-03-08 12:11:03,768 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1615234263_157_8257ead45c2b01a936c2b564533b6e1c], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-08 12:13:56,050 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:13:56,137 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:13:56,944 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:13:56,952 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:14:03,782 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:14:03] "[37mPOST /index?msg_signature=fbc29c91a47974e07cc999c2044a98662f47bf7e&timestamp=1615234442&nonce=1614827058 HTTP/1.1[0m" 200 -
+2021-03-08 12:14:09,012 - root - INFO - {"errcode":301002,"errmsg":"not allow operate another agent with this accesstoken., hint: [1615234448_149_0db6aa6fcaa294550e97cf65dad4016e], from ip: 96.74.99.243, more info at https://open.work.weixin.qq.com/devtool/query?e=301002"}
+2021-03-08 12:15:09,237 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:15:09,310 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:15:10,099 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:15:10,106 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:15:12,150 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:15:12,198 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:15:12,687 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:15:12,693 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:15:19,072 - werkzeug - INFO - 59.36.121.188 - - [08/Mar/2021 12:15:19] "[37mPOST /index?msg_signature=dd2b8d55b431122247f706ae55b0e74b4646f4a1&timestamp=1615234517&nonce=1615615801 HTTP/1.1[0m" 200 -
+2021-03-08 12:15:24,050 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-03-08 12:15:46,506 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 12:15:46,562 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 12:15:47,043 - werkzeug - WARNING -  * Debugger is active!
+2021-03-08 12:15:47,051 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-03-08 12:25:33,668 - werkzeug - INFO - 104.140.188.54 - - [08/Mar/2021 12:25:33] "[33mGET / HTTP/1.1[0m" 404 -
+2021-03-08 13:22:19,461 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-03-08 13:22:19,560 - werkzeug - INFO -  * Restarting with stat
+2021-03-08 13:22:53,528 - waitress - INFO - Serving on http://96.74.99.243:5000
+2021-03-08 13:49:15,522 - waitress - INFO - Serving on http://0.0.0.0:80
+2021-03-08 13:49:43,373 - waitress - INFO - Serving on http://0.0.0.0:80
+2021-03-08 13:50:04,991 - waitress - INFO - Serving on http://0.0.0.0:80
+2021-03-08 13:51:19,994 - waitress - INFO - Serving on http://0.0.0.0:80
+2021-03-08 13:51:30,439 - waitress - INFO - Serving on http://0.0.0.0:80

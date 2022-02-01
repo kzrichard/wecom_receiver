@@ -1,0 +1,32 @@
+2021-02-19 17:03:08,229 - werkzeug - INFO -  * Running on http://96.74.99.243:5000/ (Press CTRL+C to quit)
+2021-02-19 17:03:08,232 - werkzeug - INFO -  * Restarting with stat
+2021-02-19 17:03:08,738 - werkzeug - WARNING -  * Debugger is active!
+2021-02-19 17:03:08,748 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-02-20 08:53:08,159 - werkzeug - INFO - 59.36.121.188 - - [20/Feb/2021 08:53:08] "[37mPOST /netsuite?msg_signature=0cca4abdbaa14636d4941eb196a2e2c989fdd37c&timestamp=1613839986&nonce=1614152022 HTTP/1.1[0m" 200 -
+2021-02-20 08:53:12,557 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-02-20 08:53:26,219 - werkzeug - INFO - 59.36.121.188 - - [20/Feb/2021 08:53:26] "[37mPOST /netsuite?msg_signature=bf5b2d5926d7a34bb581084f70b17021937d2666&timestamp=1613840004&nonce=1614578152 HTTP/1.1[0m" 200 -
+2021-02-20 08:53:28,601 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-02-20 08:53:36,964 - werkzeug - INFO - 59.36.121.188 - - [20/Feb/2021 08:53:36] "[37mPOST /netsuite?msg_signature=10579ab4efb9012a3c5fa10d3892d9b76986d22b&timestamp=1613840015&nonce=1614508797 HTTP/1.1[0m" 200 -
+2021-02-20 08:53:39,455 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-02-20 09:04:17,102 - werkzeug - INFO - 59.36.121.188 - - [20/Feb/2021 09:04:17] "[37mPOST /netsuite?msg_signature=f4789d9917302633832ab65fbe204f43b2c792dc&timestamp=1613840655&nonce=1614507249 HTTP/1.1[0m" 200 -
+2021-02-20 09:04:19,858 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-02-20 09:06:04,083 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-02-20 09:06:04,167 - werkzeug - INFO -  * Restarting with stat
+2021-02-20 09:06:04,917 - werkzeug - WARNING -  * Debugger is active!
+2021-02-20 09:06:04,993 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-02-20 09:06:08,061 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-02-20 09:06:08,118 - werkzeug - INFO -  * Restarting with stat
+2021-02-20 09:06:09,301 - werkzeug - WARNING -  * Debugger is active!
+2021-02-20 09:06:09,317 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-02-20 09:06:15,421 - werkzeug - INFO - 59.36.121.188 - - [20/Feb/2021 09:06:15] "[37mPOST /netsuite?msg_signature=df275b972d308fa0bc5ae101f979b28ef4300e6a&timestamp=1613840774&nonce=1613834983 HTTP/1.1[0m" 200 -
+2021-02-20 09:06:18,435 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-02-20 09:06:23,626 - werkzeug - INFO - 59.36.121.188 - - [20/Feb/2021 09:06:23] "[37mPOST /netsuite?msg_signature=43000ac1aa2d6269009dfa35ad99d25b4de0bf66&timestamp=1613840782&nonce=1614146383 HTTP/1.1[0m" 200 -
+2021-02-20 09:06:26,061 - root - INFO - {"errcode":0,"errmsg":"ok","invaliduser":""}
+2021-02-20 09:06:35,894 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-02-20 09:06:35,966 - werkzeug - INFO -  * Restarting with stat
+2021-02-20 09:06:36,596 - werkzeug - WARNING -  * Debugger is active!
+2021-02-20 09:06:36,602 - werkzeug - INFO -  * Debugger PIN: 558-091-268
+2021-02-20 09:06:41,689 - werkzeug - INFO -  * Detected change in '/Users/richard/Desktop/Stuff/Python Scripts/python3 wechatmsg /wx_msg_server.py', reloading
+2021-02-20 09:06:41,736 - werkzeug - INFO -  * Restarting with stat
+2021-02-20 09:06:42,239 - werkzeug - WARNING -  * Debugger is active!
+2021-02-20 09:06:42,244 - werkzeug - INFO -  * Debugger PIN: 558-091-268
