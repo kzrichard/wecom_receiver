@@ -318,6 +318,8 @@ class WeChatMsg():
             # from restlet on NetSuite
             performance_review_result = json.loads(resp.text)
 
+            print(performance_review_result)
+
             # anydesk_found = False
             performance_review_info = "以下为考评分数搜寻结果: \n"
             performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
@@ -339,12 +341,14 @@ class WeChatMsg():
             # if not anydesk_found:
             #     anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
             
+            print(performance_review_info)
             result_msg = self._send_text_msg(performance_review_info, self.performance_review_agent_id, sent_user_id, access_token)
             return result_msg
             
         # check the type error when equipment list is received from NetSuite reslet
         # there might be an error with searching term if it gets to this exception
         except TypeError as type_err:
+            print(type_err)
             performance_review_info = "考评记录无出现与此用户相关的记录。\n请确认搜寻内容或此用户尚未达到考评资格。"
             result_msg = self._send_text_msg(performance_review_info, self.performance_review_agent_id, sent_user_id, access_token)
             return result_msg
