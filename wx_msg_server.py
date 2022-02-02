@@ -316,7 +316,7 @@ class WeChatMsg():
 
             # equipment list with given user returned
             # from restlet on NetSuite
-            performance_review_result = json.loads(resp.text)
+            performance_review_result = json.loads(json.loads(resp.text))
 
             print(performance_review_result)
             print(type(performance_review_result))
