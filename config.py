@@ -39,6 +39,16 @@ secret = XpM7Cp_oU4D5s-qSk0P2PGvYTiPGCjrc1p7k-s6q6JA
 Token = fRkurOWyKBb81Xje4yLoTl6Qd
 EncodingAESKey = i6PPueBXhth3NFbVzbRrse1uDU7dCF2u0NZFDbQsAHR
 
+
+[performancereviewconfig]
+# 自建应用agentid
+agentid = 1000043
+# 自建应用secret
+secret = 5aZ6UJCCyaEW5RByYojnFQuwajdmitvq3fPNiZUq0Bo
+
+Token = FvAmT94wmGZg
+EncodingAESKey = P19vbStJURucXFUGL0BrqPjzcJRahwTx3iMtAxj5CLL
+
 [trelloappconfig]
 # 自建应用agentid
 agentid = 1000011

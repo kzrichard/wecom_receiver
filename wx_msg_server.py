@@ -60,6 +60,12 @@ class WeChatMsg():
         self.it_sToken = config['itappconfig']['Token']
         self.it_sEncodingAESKey = config['itappconfig']['EncodingAESKey']
 
+        # config information for performance review agent lookup
+        self.performance_review_agent_id = config['performancereviewconfig']['agentid']
+        self.performance_review_agent_secret = config['performancereviewconfig']['secret']
+        self.performance_review_sToken = config['performancereviewconfig']['Token']
+        self.performance_review_sEncodingAESKey = config['performancereviewconfig']['EncodingAESKey']
+
         # contact secret that can access the contacts on WeCom
         self.contact_secret = config['appconfig']['contact_secret']
 
@@ -563,7 +569,7 @@ def netsuite():
 @app.route('/performance_review', methods=['GET', 'POST'])
 def performance_review():
     wechatserver = WeChatMsg(logger)
-    wxcpt = WXBizMsgCrypt(wechatserver.it_sToken, wechatserver.it_sEncodingAESKey, wechatserver.sCorpID)
+    wxcpt = WXBizMsgCrypt(wechatserver.performance_review_sToken, wechatserver.performance_review_sEncodingAESKey, wechatserver.sCorpID)
 
     # get paramaters for authentication from WeCom
     sVerifyMsgSig = request.args.get('msg_signature')
@@ -582,7 +588,7 @@ def performance_review():
 
     # get the message from clients
     if request.method == 'POST':
-        access_token = json.loads(requests.get(wechatserver.get_access_token_url.format(wechatserver.sCorpID,wechatserver.it_agent_secret)).content)['access_token']
+        access_token = json.loads(requests.get(wechatserver.get_access_token_url.format(wechatserver.sCorpID,wechatserver.performance_review_agent_secret)).content)['access_token']
         sReqMsgSig = sVerifyMsgSig
         sReqTimeStamp = sVerifyTimeStamp
         sReqNonce = sVerifyNonce
