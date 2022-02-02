@@ -296,7 +296,7 @@ class WeChatMsg():
 
     def _send_performace_review_text_msg(self, email, sent_user_id, access_token):
         try:
-            self._send_searching_text_msg("AnyDesk", sent_user_id, self.it_agent_id, access_token)
+            self._send_searching_text_msg("AnyDesk", sent_user_id, self.performance_review_agent_id, access_token)
             
             # authentication information in order to access
             # restlet on NetSuite
@@ -339,14 +339,14 @@ class WeChatMsg():
             # if not anydesk_found:
             #     anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
             
-            result_msg = self._send_text_msg(performance_review_info, self.it_agent_id, sent_user_id, access_token)
+            result_msg = self._send_text_msg(performance_review_info, self.performance_review_agent_id, sent_user_id, access_token)
             return result_msg
             
         # check the type error when equipment list is received from NetSuite reslet
         # there might be an error with searching term if it gets to this exception
         except TypeError as type_err:
             anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
-            result_msg = self._send_text_msg(anydesk_info, self.it_agent_id, sent_user_id, access_token)
+            result_msg = self._send_text_msg(anydesk_info, self.performance_review_agent_id, sent_user_id, access_token)
             return result_msg
         except Exception as e:
             self.logoper.info(e)
