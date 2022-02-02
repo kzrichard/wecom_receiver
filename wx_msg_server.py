@@ -314,6 +314,8 @@ class WeChatMsg():
                 headers={'Content-Type': 'application/json'},
             )
 
+            print(resp.text)
+
             # equipment list with given user returned
             # from restlet on NetSuite
             performance_review_result = json.loads(resp.text)
@@ -345,8 +347,8 @@ class WeChatMsg():
         # check the type error when equipment list is received from NetSuite reslet
         # there might be an error with searching term if it gets to this exception
         except TypeError as type_err:
-            anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
-            result_msg = self._send_text_msg(anydesk_info, self.performance_review_agent_id, sent_user_id, access_token)
+            performance_review_info = "考评记录无出现与此用户相关的记录。\n请确认搜寻内容或此用户尚未达到考评资格。"
+            result_msg = self._send_text_msg(performance_review_info, self.performance_review_agent_id, sent_user_id, access_token)
             return result_msg
         except Exception as e:
             self.logoper.info(e)
