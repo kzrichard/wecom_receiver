@@ -296,7 +296,7 @@ class WeChatMsg():
 
     def _send_performace_review_text_msg(self, email, sent_user_id, access_token):
         try:
-            self._send_searching_text_msg("AnyDesk", sent_user_id, self.performance_review_agent_id, access_token)
+            self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
             
             # authentication information in order to access
             # restlet on NetSuite
@@ -313,8 +313,6 @@ class WeChatMsg():
                 url,
                 headers={'Content-Type': 'application/json'},
             )
-
-            print(resp.text)
 
             # equipment list with given user returned
             # from restlet on NetSuite
