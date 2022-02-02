@@ -609,7 +609,7 @@ def performance_review():
             from_user_id = xml_tree.find("FromUserName").text
             
             # use thread to save response time before timeout
-            Thread(target=wechatserver._send_performace_review_text_msg, args=(content, content, from_user_id, access_token)).start()
+            Thread(target=wechatserver._send_performace_review_text_msg, args=(content, from_user_id, access_token)).start()
             return '',200
         else:
             return
