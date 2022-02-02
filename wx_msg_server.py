@@ -319,6 +319,7 @@ class WeChatMsg():
             performance_review_result = json.loads(resp.text)
 
             print(performance_review_result)
+            print(type(performance_review_result))
 
             # anydesk_found = False
             performance_review_info = "以下为考评分数搜寻结果: \n"
