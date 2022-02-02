@@ -288,6 +288,63 @@ class WeChatMsg():
         except Exception as e:
             self.logoper.info(e)
 
+    def _send_performace_review_text_msg(self, sent_user_id, access_token):
+        try:
+            self._send_searching_text_msg("AnyDesk", sent_user_id, self.it_agent_id, access_token)
+            
+            # authentication information in order to access
+            # restlet on NetSuite
+            url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=richard@kzkitchen.com"
+
+            oauth = OAuth1Session(
+                client_key=self.netsuite_clientkey,
+                client_secret=self.netsuite_client_secret,
+                resource_owner_key=self.netsuite_resource_owner_key,
+                resource_owner_secret=self.netsuite_resource_owner_secret,
+                realm=self.netsuite_realm)
+
+            resp = oauth.get(
+                url,
+                headers={'Content-Type': 'application/json'},
+            )
+
+            # equipment list with given user returned
+            # from restlet on NetSuite
+            performance_review_result = json.loads(resp.text)
+
+            # anydesk_found = False
+            performance_review_info = "以下为考评分数搜寻结果: \n"
+            performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
+            performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
+            performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
+            performance_review_info += "遵守纪律制度：" + performance_review_result["disciplineScore"] + "\n"
+            performance_review_info += "团队配合度：" + performance_review_result["teamworkScore"] + "\n"
+            performance_review_info += "最终总成绩：" + performance_review_result["finalScore"] + "\n"
+
+            # # go through the list and compose the message
+            # for equipment in equipment_list:
+            #     anydesk_found = True
+            #     equip_name = equipment["name"]
+            #     equip_anydeskId = equipment["anydeskId"]
+            #     equip_assign_to = equipment["assignTo"]
+            #     equip_department = equipment["department"]
+            #     anydesk_info += equip_assign_to + " at " + equip_department + " with " + equip_name + ": " + equip_anydeskId + "\n\n"
+
+            # if not anydesk_found:
+            #     anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
+            
+            result_msg = self._send_text_msg(performance_review_info, self.it_agent_id, sent_user_id, access_token)
+            return result_msg
+            
+        # check the type error when equipment list is received from NetSuite reslet
+        # there might be an error with searching term if it gets to this exception
+        except TypeError as type_err:
+            anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
+            result_msg = self._send_text_msg(anydesk_info, self.it_agent_id, sent_user_id, access_token)
+            return result_msg
+        except Exception as e:
+            self.logoper.info(e)
+
     # send text message with given content to the given user id
     def _send_text_msg(self, content, agenet_id, sent_user_id, access_token):
         try:
@@ -499,6 +556,54 @@ def netsuite():
             
             # use thread to save response time before timeout
             Thread(target=wechatserver._send_netsuite_text_msg, args=(content, from_user_id, access_token)).start()
+            return '',200
+        else:
+            return
+
+@app.route('/performance_review', methods=['GET', 'POST'])
+def performance_review():
+    wechatserver = WeChatMsg(logger)
+    wxcpt = WXBizMsgCrypt(wechatserver.it_sToken, wechatserver.it_sEncodingAESKey, wechatserver.sCorpID)
+
+    # get paramaters for authentication from WeCom
+    sVerifyMsgSig = request.args.get('msg_signature')
+    sVerifyTimeStamp = request.args.get('timestamp')
+    sVerifyNonce = request.args.get('nonce')
+    sVerifyEchoStr = request.args.get('echostr')
+
+    # authenticate url
+    if request.method == 'GET':
+        ret, sEchoStr = wxcpt.VerifyURL(sVerifyMsgSig, sVerifyTimeStamp, sVerifyNonce, sVerifyEchoStr)
+        
+        if (ret != 0):
+            print("ERR: VerifyURL ret:" + str(ret))
+            sys.exit(1)
+        return sEchoStr
+
+    # get the message from clients
+    if request.method == 'POST':
+        access_token = json.loads(requests.get(wechatserver.get_access_token_url.format(wechatserver.sCorpID,wechatserver.it_agent_secret)).content)['access_token']
+        sReqMsgSig = sVerifyMsgSig
+        sReqTimeStamp = sVerifyTimeStamp
+        sReqNonce = sVerifyNonce
+        sReqData = request.data
+
+        ret, sMsg = wxcpt.DecryptMsg(sReqData, sReqMsgSig, sReqTimeStamp, sReqNonce)
+        if (ret != 0):
+            print("ERR: DecryptMsg ret: " + str(ret))
+            sys.exit(1)
+        
+        # retrieve message contens
+        xml_tree = ET.fromstring(sMsg)
+        content_type = xml_tree.find("MsgType").text
+
+        # process if the content type is text
+        if content_type == "text":
+            content = xml_tree.find("Content").text
+            from_user_id = xml_tree.find("FromUserName").text
+            
+            # use thread to save response time before timeout
+            Thread(target=wechatserver._send_performace_review_text_msg, args=(content, from_user_id, access_token)).start()
             return '',200
         else:
             return
