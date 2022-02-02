@@ -328,6 +328,7 @@ class WeChatMsg():
             performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
             performance_review_info += "遵守纪律制度：" + performance_review_result["disciplineScore"] + "\n"
             performance_review_info += "团队配合度：" + performance_review_result["teamworkScore"] + "\n"
+            performance_review_info += "平均成绩：" + performance_review_result["averageScore"] + "\n"
             performance_review_info += "最终总成绩：" + performance_review_result["finalScore"] + "\n"
 
             # # go through the list and compose the message
