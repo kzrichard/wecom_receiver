@@ -294,13 +294,13 @@ class WeChatMsg():
         except Exception as e:
             self.logoper.info(e)
 
-    def _send_performace_review_text_msg(self, sent_user_id, access_token):
+    def _send_performace_review_text_msg(self, email, sent_user_id, access_token):
         try:
             self._send_searching_text_msg("AnyDesk", sent_user_id, self.it_agent_id, access_token)
             
             # authentication information in order to access
             # restlet on NetSuite
-            url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=richard@kzkitchen.com"
+            url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=" + email
 
             oauth = OAuth1Session(
                 client_key=self.netsuite_clientkey,
@@ -609,7 +609,7 @@ def performance_review():
             from_user_id = xml_tree.find("FromUserName").text
             
             # use thread to save response time before timeout
-            Thread(target=wechatserver._send_performace_review_text_msg, args=(content, from_user_id, access_token)).start()
+            Thread(target=wechatserver._send_performace_review_text_msg, args=(content, content, from_user_id, access_token)).start()
             return '',200
         else:
             return
