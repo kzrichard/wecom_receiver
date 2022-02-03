@@ -73,6 +73,7 @@ class WeChatMsg():
         self.send_msg_url = config['urlconfig']['send_msg_url']
         self.get_all_users_url = config['urlconfig']['get_all_users_url']
         self.get_access_token_url = config['urlconfig']['get_access_token_url']
+        self.get_user_by_user_id = config['urlconfig']['get_user_by_user_id']
 
         # log on the logging file
         logger = logger.LogHelper()
@@ -297,10 +298,20 @@ class WeChatMsg():
     def _send_performace_review_text_msg(self, email, sent_user_id, access_token):
         try:
             self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
+
+            contact_access_token = json.loads(requests.get(self.get_access_token_url.format(self.sCorpID,self.contact_secret)).content)['access_token']
+
+            # retrieve current user list on WeCom
+            user_info = json.loads(requests.get(self.get_user_by_user_id.format(contact_access_token, sent_user_id)).content)
+
+            if user_info["email"] != email:
+                email_not_matched_info = "发送用户绑定邮箱与提供邮箱不符，请确认后再重试。"
+                self._send_text_msg(email_not_matched_info, self.performance_review_agent_id, sent_user_id, access_token)
+                return
             
             # authentication information in order to access
             # restlet on NetSuite
-            url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=" + email
+            url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=" + user_info["email"]
 
             oauth = OAuth1Session(
                 client_key=self.netsuite_clientkey,

@@ -85,8 +85,10 @@ send_msg_url = https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token={}
 upload_media_url = https://qyapi.weixin.qq.com/cgi-bin/media/upload?access_token={}&type=image
 # 上传高清语音接口
 upload_video_url = https://qyapi.weixin.qq.com/cgi-bin/media/get/jssdk?access_token={}&media_id={}
-# 获取成员信息
+# 获取所有成员信息
 get_all_users_url = https://qyapi.weixin.qq.com/cgi-bin/user/list?access_token={}&department_id={}&fetch_child={}
+# 透过userid获取成员信息
+get_user_by_user_id = https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={}&userid={}
 
 [loginfo]
 #日志目录
