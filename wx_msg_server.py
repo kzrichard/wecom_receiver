@@ -299,11 +299,13 @@ class WeChatMsg():
         try:
             self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
 
+#
             contact_access_token = json.loads(requests.get(self.get_access_token_url.format(self.sCorpID,self.contact_secret)).content)['access_token']
 
-            # retrieve current user list on WeCom
+            # retrieve current user's email
             user_info = json.loads(requests.get(self.get_user_by_user_id.format(contact_access_token, sent_user_id)).content)
 
+            # check if the current user's email is matching the email stored in the WeCom profile
             if user_info["email"] != email:
                 email_not_matched_info = "发送用户绑定邮箱与提供邮箱不符，请确认后再重试。"
                 self._send_text_msg(email_not_matched_info, self.performance_review_agent_id, sent_user_id, access_token)
@@ -336,7 +338,8 @@ class WeChatMsg():
 
             
 
-            performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
+            # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
+            performance_review_info = "以下为记录中最近期" + int(performance_review_result["endDate"].split("/")[0]) + "月的考评分数搜寻结果: \n"
             performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
             performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
             performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
