@@ -339,7 +339,7 @@ class WeChatMsg():
             
 
             # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
-            performance_review_info = "以下为记录中最近期" + int(performance_review_result["endDate"].split("/")[0]) + "月的考评分数搜寻结果: \n"
+            performance_review_info = "以下为记录中最近期" + performance_review_result["endDate"].split("/")[0] + "月的考评分数搜寻结果: \n"
             performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
             performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
             performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
