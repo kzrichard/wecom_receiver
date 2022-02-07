@@ -14,6 +14,7 @@ from threading import Thread
 from trello import TrelloClient
 from requests_oauthlib import OAuth1Session
 from waitress import serve
+from datetime import datetime
 
 class WeChatMsg():
     def __init__(self,logger,host='0.0.0.0',port=8080):
@@ -327,26 +328,26 @@ class WeChatMsg():
                 headers={'Content-Type': 'application/json'},
             )
 
-            # equipment list with given user returned
-            # from restlet on NetSuite
             performance_review_result = json.loads(json.loads(resp.text))
 
             print(performance_review_result)
             print(type(performance_review_result))
 
-            # anydesk_found = False
+            now = datetime.now()
+            end_date_obj = datetime.strptime(performance_review_result["endDate"], '%m/%d/%Y')
 
-            
-
-            # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
-            performance_review_info = "以下为记录中最近期" + performance_review_result["endDate"].split("/")[0] + "月的考评分数搜寻结果: \n"
-            performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
-            performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
-            performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
-            performance_review_info += "遵守纪律制度：" + performance_review_result["disciplineScore"] + "\n"
-            performance_review_info += "团队配合度：" + performance_review_result["teamworkScore"] + "\n"
-            performance_review_info += "平均成绩：" + performance_review_result["averageScore"] + "\n"
-            performance_review_info += "最终总成绩：" + performance_review_result["finalScore"] + "\n"
+            if now < end_date_obj:
+                performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请结束后再次搜寻。"
+            else:
+                # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
+                performance_review_info = "以下为记录中最近期" + performance_review_result["endDate"].split("/")[0] + "月的考评分数搜寻结果: \n"
+                performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
+                performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
+                performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
+                performance_review_info += "遵守纪律制度：" + performance_review_result["disciplineScore"] + "\n"
+                performance_review_info += "团队配合度：" + performance_review_result["teamworkScore"] + "\n"
+                performance_review_info += "平均成绩：" + performance_review_result["averageScore"] + "\n"
+                performance_review_info += "最终总成绩：" + performance_review_result["finalScore"] + "\n"
 
             # # go through the list and compose the message
             # for equipment in equipment_list:
