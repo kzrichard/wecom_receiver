@@ -334,10 +334,10 @@ class WeChatMsg():
             print(type(performance_review_result))
 
             now = datetime.now()
-            end_date_obj = datetime.strptime('2/8/2022', '%m/%d/%Y')
+            end_date_obj = datetime.strptime(performance_review_result["endDate"], '%m/%d/%Y')
 
             if now < end_date_obj:
-                performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请结束后再次搜寻。"
+                performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请到期后再搜寻。"
             else:
                 # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
                 performance_review_info = "以下为记录中最近期" + performance_review_result["endDate"].split("/")[0] + "月的考评分数搜寻结果: \n"
