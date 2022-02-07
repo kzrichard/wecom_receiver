@@ -334,7 +334,7 @@ class WeChatMsg():
             print(type(performance_review_result))
 
             now = datetime.now()
-            end_date_obj = datetime.strptime(performance_review_result["endDate"], '%m/%d/%Y')
+            end_date_obj = datetime.strptime('2/8/2022', '%m/%d/%Y')
 
             if now < end_date_obj:
                 performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请结束后再次搜寻。"
