@@ -296,7 +296,7 @@ class WeChatMsg():
         except Exception as e:
             self.logoper.info(e)
 
-    def _send_performace_review_text_msg(self, email, sent_user_id, access_token):
+    def _send_performace_review_text_msg(self, content, sent_user_id, access_token):
         try:
             self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
 
@@ -305,65 +305,56 @@ class WeChatMsg():
             # retrieve current user's email
             user_info = json.loads(requests.get(self.get_user_by_user_id.format(contact_access_token, sent_user_id)).content)
 
-            # check if the current user's email is matching the email stored in the WeCom profile
-            if user_info["email"] != email:
-                email_not_matched_info = "发送用户绑定邮箱与提供邮箱不符，请确认后再重试。"
-                self._send_text_msg(email_not_matched_info, self.performance_review_agent_id, sent_user_id, access_token)
-                return
+            menu = "您好，目前支持以下指令，请输入对应讯息执行：\n"
+            command_list = ["查询分数"]
+
+            for command in command_list:
+                menu += command + "\n"
+
+            content = content.strip()
+
+            if not content in command_list:
+                self._send_text_msg(menu, self.performance_review_agent_id, sent_user_id, access_token)
+                return 
             
-            # authentication information in order to access
-            # restlet on NetSuite
-            url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=" + user_info["email"]
+            elif content == "查询分数":
+                # authentication information in order to access restlet on NetSuite
+                url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=" + user_info["email"]
 
-            oauth = OAuth1Session(
-                client_key=self.netsuite_clientkey,
-                client_secret=self.netsuite_client_secret,
-                resource_owner_key=self.netsuite_resource_owner_key,
-                resource_owner_secret=self.netsuite_resource_owner_secret,
-                realm=self.netsuite_realm)
+                oauth = OAuth1Session(
+                    client_key=self.netsuite_clientkey,
+                    client_secret=self.netsuite_client_secret,
+                    resource_owner_key=self.netsuite_resource_owner_key,
+                    resource_owner_secret=self.netsuite_resource_owner_secret,
+                    realm=self.netsuite_realm)
 
-            resp = oauth.get(
-                url,
-                headers={'Content-Type': 'application/json'},
-            )
+                resp = oauth.get(
+                    url,
+                    headers={'Content-Type': 'application/json'},
+                )
 
-            performance_review_result = json.loads(json.loads(resp.text))
+                performance_review_result = json.loads(json.loads(resp.text))
 
-            print(performance_review_result)
-            print(type(performance_review_result))
+                now = datetime.now()
+                end_date_obj = datetime.strptime(performance_review_result["endDate"], '%m/%d/%Y')
 
-            now = datetime.now()
-            end_date_obj = datetime.strptime(performance_review_result["endDate"], '%m/%d/%Y')
-
-            # not return the performance review result if the end date has not ended yet
-            if now < end_date_obj:
-                performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请到期后再搜寻。"
-            else:
-                # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
-                performance_review_info = "以下为记录中最近期" + performance_review_result["endDate"].split("/")[0] + "月的考评分数搜寻结果: \n"
-                performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
-                performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
-                performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
-                performance_review_info += "遵守纪律制度：" + performance_review_result["disciplineScore"] + "\n"
-                performance_review_info += "团队配合度：" + performance_review_result["teamworkScore"] + "\n"
-                performance_review_info += "平均成绩：" + performance_review_result["averageScore"] + "\n"
-                performance_review_info += "最终总成绩：" + performance_review_result["finalScore"] + "\n"
-
-            # # go through the list and compose the message
-            # for equipment in equipment_list:
-            #     anydesk_found = True
-            #     equip_name = equipment["name"]
-            #     equip_anydeskId = equipment["anydeskId"]
-            #     equip_assign_to = equipment["assignTo"]
-            #     equip_department = equipment["department"]
-            #     anydesk_info += equip_assign_to + " at " + equip_department + " with " + equip_name + ": " + equip_anydeskId + "\n\n"
-
-            # if not anydesk_found:
-            #     anydesk_info = "查无此设备。\n请确认搜寻内容并重试。"
-            
-            print(performance_review_info)
-            result_msg = self._send_text_msg(performance_review_info, self.performance_review_agent_id, sent_user_id, access_token)
-            return result_msg
+                # not return the performance review result if the end date has not ended yet
+                if now < end_date_obj:
+                    performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请到期后再搜寻。"
+                else:
+                    # performance_review_info = "以下为记录中最近期" + performance_review_result["reviewPeriod"] + "的考评分数搜寻结果: \n"
+                    performance_review_info = "以下为记录中最近期" + performance_review_result["endDate"].split("/")[0] + "月的考评分数搜寻结果: \n"
+                    performance_review_info += "工作能力：" + performance_review_result["productivityScore"] + "\n"
+                    performance_review_info += "细心程度：" + performance_review_result["complianceScore"] + "\n"
+                    performance_review_info += "工作态度：" + performance_review_result["attitudeScore"] + "\n"
+                    performance_review_info += "遵守纪律制度：" + performance_review_result["disciplineScore"] + "\n"
+                    performance_review_info += "团队配合度：" + performance_review_result["teamworkScore"] + "\n"
+                    performance_review_info += "平均成绩：" + performance_review_result["averageScore"] + "\n"
+                    performance_review_info += "最终总成绩：" + performance_review_result["finalScore"] + "\n"
+                
+                print(performance_review_info)
+                result_msg = self._send_text_msg(performance_review_info, self.performance_review_agent_id, sent_user_id, access_token)
+                return result_msg
             
         # check the type error when equipment list is received from NetSuite reslet
         # there might be an error with searching term if it gets to this exception
@@ -626,8 +617,6 @@ def performance_review():
         # retrieve message contens
         xml_tree = ET.fromstring(sMsg)
         content_type = xml_tree.find("MsgType").text
-
-        print(xml_tree.text)
 
         # process if the content type is text
         if content_type == "text":
