@@ -305,11 +305,11 @@ class WeChatMsg():
             # retrieve current user's email
             user_info = json.loads(requests.get(self.get_user_by_user_id.format(contact_access_token, sent_user_id)).content)
 
-            menu = "您好，目前支持以下指令，请输入对应讯息执行：\n"
+            menu = "您好，目前支持以下指令，请输入对应讯息执行（不包含编号）：\n"
             command_list = ["查询分数"]
 
-            for command in command_list:
-                menu += command + "\n"
+            for index, command in command_list:
+                menu += f'{index + 1}. {command}\n'
 
             content = content.strip()
 
