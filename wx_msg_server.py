@@ -308,7 +308,7 @@ class WeChatMsg():
             menu = "您好，目前支持以下指令，请输入对应讯息执行（不包含编号）：\n"
             command_list = ["查询分数"]
 
-            for index, command in command_list:
+            for index, command in enumerate(command_list):
                 menu += f'{index + 1}. {command}\n'
 
             content = content.strip()
