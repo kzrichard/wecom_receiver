@@ -631,7 +631,7 @@ def performance_review():
         if content_type == "text":
             content = xml_tree.find("Content").text
             from_user_id = xml_tree.find("FromUserName").text
-            print(content)
+            print(xml_tree.text)
             # use thread to save response time before timeout
             Thread(target=wechatserver._send_performace_review_text_msg, args=(content, from_user_id, access_token)).start()
             return '',200
