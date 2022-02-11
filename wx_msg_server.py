@@ -298,8 +298,6 @@ class WeChatMsg():
 
     def _send_performace_review_text_msg(self, content, sent_user_id, access_token):
         try:
-            self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
-
             contact_access_token = json.loads(requests.get(self.get_access_token_url.format(self.sCorpID,self.contact_secret)).content)['access_token']
 
             # retrieve current user's email
@@ -318,6 +316,8 @@ class WeChatMsg():
                 return 
             
             elif content == "查询分数":
+                self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
+
                 # authentication information in order to access restlet on NetSuite
                 url = "https://4695594.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1580&deploy=1&email=" + user_info["email"]
 
