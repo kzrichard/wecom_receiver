@@ -300,7 +300,6 @@ class WeChatMsg():
         try:
             self._send_searching_text_msg("Performance Review", sent_user_id, self.performance_review_agent_id, access_token)
 
-#
             contact_access_token = json.loads(requests.get(self.get_access_token_url.format(self.sCorpID,self.contact_secret)).content)['access_token']
 
             # retrieve current user's email
@@ -336,6 +335,7 @@ class WeChatMsg():
             now = datetime.now()
             end_date_obj = datetime.strptime(performance_review_result["endDate"], '%m/%d/%Y')
 
+            # not return the performance review result if the end date has not ended yet
             if now < end_date_obj:
                 performance_review_info = "最近期考评记录搜集时间将在" + performance_review_result["endDate"] + "结束。请到期后再搜寻。"
             else:
@@ -631,8 +631,7 @@ def performance_review():
         if content_type == "text":
             content = xml_tree.find("Content").text
             from_user_id = xml_tree.find("FromUserName").text
-            print(xml_tree.text)
-            
+            print(content)
             # use thread to save response time before timeout
             Thread(target=wechatserver._send_performace_review_text_msg, args=(content, from_user_id, access_token)).start()
             return '',200
